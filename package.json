@@ -1,0 +1,23 @@
+{
+  "name": "zwatch",
+  "version": "1.0.0",
+  "description": "nodemon's brother",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "zwatch": "index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "chokidar": "^3.5.3",
+    "cli-welcome": "^2.2.2",
+    "lodash.debounce": "^4.0.8",
+    "meow": "^11.0.0"
+  }
+}
